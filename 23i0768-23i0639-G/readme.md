@@ -1,3 +1,10 @@
+Git flow:
+    git pull
+    # edit files
+    git add .
+    git commit -m "Describe changes"
+    git push
+
 7.1 Folder Structure
 22i1234-22i5678-A/
     src/
