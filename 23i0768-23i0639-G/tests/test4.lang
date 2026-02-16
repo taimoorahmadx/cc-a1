@@ -1,0 +1,16 @@
+start
+    ## Error 1: Invalid identifier (Starts with lowercase)
+    declare count = 10;
+    
+    ## Error 2: Invalid characters (@ and $)
+    declare Price$ = 50 @ 2;
+    
+    ## Error 3: Malformed literal (Multiple decimals)
+    declare Num = 12.34.56;
+    
+    ## Error 4: Invalid identifier (Exceeds 31 characters)
+    declare ThisIdentifierIsWayTooLongToBeValid = 100;
+    
+    ## Error 5: Malformed literal (Unterminated string)
+    output("This string has no closing quote
+finish

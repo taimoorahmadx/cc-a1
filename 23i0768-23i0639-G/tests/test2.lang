@@ -1,0 +1,7 @@
+function Compute_max(A, B) {
+    condition (A >= B) {
+        return A;
+    } else {
+        return B;
+    }
+}

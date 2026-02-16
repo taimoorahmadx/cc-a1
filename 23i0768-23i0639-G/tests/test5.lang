@@ -1,0 +1,18 @@
+start
+    ## This is a standard single-line comment
+    declare A = 10; ## Inline single-line comment
+    
+    #* This is a multi-line comment.
+       It can span multiple lines.
+       Keywords like start or loop inside here should be ignored.
+       Operators like +-/* should also be ignored.
+    *#
+    declare B = 20;
+    
+    #* Error: Unclosed multi-line comment.
+       This tests the specific error for comments that lack the closing tag.
+       Because it never closes, the scanner should flag it as an error 
+       when it reaches the EOF.
+       
+    declare C = 30;
+finish

@@ -1,0 +1,8 @@
+start
+    declare Count = 0;
+    ## This is a simple counter
+    loop (Count < 10) {
+        output("Value: ", Count);
+        Count++;
+    }
+finish

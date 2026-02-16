@@ -1,0 +1,7 @@
+start
+    #* Calculating complex
+       floating point operations 
+    *#
+    declare Result = +3.14 * (1.5e10 / -0.123);
+    declare Flag = true;
+finish
